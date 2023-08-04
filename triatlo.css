@@ -1,0 +1,40 @@
+header{
+    background-color:#44749d;
+      padding: 100px 0 0 300px;
+      position: relative;
+      height: 30px;
+      
+}
+
+.logo {
+    padding: 200px 0 0 300px;
+    position: relative;
+    left: 4;
+    align-items: center;
+    top: -310px;
+    width: 300px;
+}
+
+.principal {
+   display: flex;
+   margin: 100px;
+}
+
+.esquerda {
+    width: 30%;
+}
+
+.direita {
+    width: 50%;
+}
+
+.botao {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
