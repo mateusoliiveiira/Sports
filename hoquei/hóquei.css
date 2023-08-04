@@ -1,0 +1,28 @@
+.principal {
+    display: flex;
+ }
+ 
+ .esquerda {
+     width: 30%;
+ }
+ 
+ .direita {
+     width: 50%;
+ }
+
+ header{
+    background-color:#44749d;
+      padding: 100px 0 0 300px;
+      position: relative;
+      height: 30px;
+      
+      }
+
+.logo {
+    padding: 200px 0 0 300px;
+    position: relative;
+    left: 4;
+    align-items: center;
+    top: -310px;
+    width: 300px;
+        }
