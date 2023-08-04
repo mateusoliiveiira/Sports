@@ -1,0 +1,120 @@
+/* Estilos gerais */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+/* Estilos específicos para a página de ciclismo */
+
+/* Estilo para o formulário de pesquisa */
+#survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#survey-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#survey-form input[type="text"],
+#survey-form input[type="email"],
+#survey-form select,
+#survey-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#survey-form textarea {
+    resize: vertical;
+}
+
+#survey-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#survey-form button:hover {
+    background-color: #555;
+}
+
+
+/* Estilo para as seções de informações */
+section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Estilo para as listas de benefícios e dicas */
+ul, ol {
+    line-height: 1.6;
+}
+
+/* Estilo para o rodapé */
+footer p {
+    margin: 0;
+}
+
+/* Estilo para links */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
