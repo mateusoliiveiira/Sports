@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+  header{
+    background-color:#44749d;
+      padding: 100px 0 0 300px;
+      position: relative;
+      height: 30px;
+      
+      }
+  
+  .logo {
+    padding: 200px 0 0 300px;
+    position: relative;
+    left: 4;
+    align-items: center;
+    top: -310px;
+    width: 300px;
+        }
+    
+   main, footer {
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Estilos das seções de conteúdo */
+  main {
+    background-color: #f2f2f2;
+ position: relative;
+ top: -258px;
+
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #7f7e7e70;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  /* Estilos para links */
+  a {
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  button {
+    background-color: #7a7676;
+    border-radius: 2px;
+    color: #c2c2c2;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+   }
+   
+   button:hover {
+    background-image: linear-gradient(90deg, #a1a1a1 0%, #8b8b8b 50%, #d5cfd0 75%, #9fa0a0da 100%);
+    animation: slidernbw 5s linear infinite;
+    color: #000;
+   }
+   
+   @keyframes slidernbw {
+    to {
+     background-position: 20vw;
+    }
+   }
+   .article-wrapper {
+    width: 250px;
+    -webkit-transition: 0.15s all ease-in-out;
+    transition: 0.15s all ease-in-out;
+    border-radius: 10px;
+    padding: 5px;
+    border: 4px solid transparent;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .article-wrapper:hover {
+    -webkit-box-shadow: 10px 10px 0 #edf0f7, 20px 20px 0 #d2d2d2;
+    box-shadow: 10px 10px 0 #acacac, 20px 20px 0 #7b7b7b;
+    border-color: #a7abae;
+    -webkit-transform: translate(-20px, -20px);
+    -ms-transform: translate(-20px, -20px);
+    transform: translate(-20px, -20px);
+  }
+  
+  .article-wrapper:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  
+  .types {
+    gap: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: flex-start;
+  }
+  
+  .rounded-lg {
+   /* class tailwind */
+    border-radius: 10px;
+  }
+  
+  .article-wrapper:hover .project-hover {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background-color: #92969c;
+  }
+  
+  .project-info {
+    padding-top: 20px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .project-title {
+    font-size: 2em;
+    margin: 0;
+    font-weight: 600;
+   /* depend de la font */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: black;
+  }
+  
+  .flex-pr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .project-type {
+    background: #c8c8cf;
+    color: #dfd62c;
+    font-weight: bold;
+    padding: 0.3em 0.7em;
+    border-radius: 15px;
+    font-size: 12px;
+    letter-spacing: -0.6px
+  }
+  
+  .project-hover {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 9px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  .container-project {
+    width: 100%;
+    height: 170px;
+    background: gray;
+  }
+  
+  /* CSS to style the sections */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 img {
+  margin-right: 10px;
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height to match the width */
+  border-radius: 50%; /* Makes the logo circular */
+  border: 2px solid #ccc; /* Adds a border to the logo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+/* CSS to style the sections */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 img {
+  margin-right: 10px;
+  width: 30px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height to match the width */
+  border-radius: 50%; /* Makes the logo circular */
+  border: 2px solid #ccc; /* Adds a border to the logo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Rest of the CSS styles... */
+
+/* CSS to style the sections */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  text-align: center; /* Align section content in the center */
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the h2 content horizontally */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 img {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left; /* Align paragraph content to the left */
+}
+
+/* Rest of the CSS styles... */
+
